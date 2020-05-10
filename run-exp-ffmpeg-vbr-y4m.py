@@ -31,7 +31,7 @@ pythonscript_dir= root_path +  testfolder
 ## Additional options
 AdditionalOptions = {
     'SuperResOff':' --cpu-used=1 --threads=0 --profile=0 --lag-in-frames=19 --min-q=0 --max-q=63 --auto-alt-ref=1 --passes=2 ' + \
-                  ' --kf-max-dist=0 --kf-min-dist=0 --drop-frame=0 --static-thresh=0 --bias-pct=50 --minsection-pct=5 --maxsection-pct=1000 ' + \
+                  ' --kf-max-dist=0 --kf-min-dist=0 --drop-frame=0 --static-thresh=0 --bias-pct=50 --minsection-pct=100 --maxsection-pct=1000 ' + \
                   ' --arnr-maxframes=7 --arnr-strength=5 --sharpness=0 --undershoot-pct=100 --overshoot-pct=100  --frame-parallel=0 --tile-columns=0 ' + \
                   ' --limit=1 --end-usage=vbr --superres-mode=0',
 
